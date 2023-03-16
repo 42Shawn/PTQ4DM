@@ -4,7 +4,7 @@ Yuzhang Shang*, Zhihang Yuan*, Bin Xie, Bingzhe Wu, and Yan Yan
 The code for the Post-training Quantization on Diffusion Models, which has been accepted to CVPR 2023. [paper](https://arxiv.org/abs/2211.15736)
 
 <img src="activation_hist.png" width="700">    
-Key Obersevation: Studies on the activation distribution w.r.t. time-step. **(Upper)** Per (output) channel weight ranges of the first depthwise-separable layer in diffusion model on different timestep. In the boxplot, the min and max values, the 2nd and 3rd quartile, and the median are plotted for each channel. We only include the layers in the decoder of UNet for noise estimation, as the ranges of the encoder and decoder are quite different. **(Bottom)** Histograms of activations on different time-steps by various layers. We can observe that the distribution of activations changes dramatically with time-step, which makes <u>traditional single-time-step PTQ calibration methods inapplicable for diffusion models<\u>.
+**_Key Obersevation_**: Studies on the activation distribution w.r.t. time-step. **(Upper)** Per (output) channel weight ranges of the first depthwise-separable layer in diffusion model on different timestep. In the boxplot, the min and max values, the 2nd and 3rd quartile, and the median are plotted for each channel. We only include the layers in the decoder of UNet for noise estimation, as the ranges of the encoder and decoder are quite different. **(Bottom)** Histograms of activations on different time-steps by various layers. We can observe that the distribution of activations changes dramatically with time-step, which makes **traditional single-time-step PTQ calibration methods inapplicable for diffusion models**.
 
 ## Quick Start
 First, download our repo:
