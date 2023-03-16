@@ -1,5 +1,5 @@
-# PTQ4DM: Post-training Quantization on Diffusion Models
-<u>Yuzhang Shang^*^</u>, Zhihang Yuan*, Bin Xie, Bingzhe Wu, and Yan Yan    
+# PTQ4DM: Post-training Quantization on Diffusion Models    
+Yuzhang Shang*, Zhihang Yuan*, Bin Xie, Bingzhe Wu, and Yan Yan    
 
 The code for the Post-training Quantization on Diffusion Models, which has been accepted to CVPR 2023. [paper](https://arxiv.org/abs/2211.15736)
 
@@ -18,7 +18,7 @@ bash quant_sample_ddim_in_backword_DNTC.sh
 ```
 
 **Demo Result**   
-baseline (full-precision IDDPM) => 8-bit PTQ4DM
+baseline (full-precision IDDPM) => 8-bit PTQ4DM    
            FID 21.7 => 24.3
 
 # Reference
