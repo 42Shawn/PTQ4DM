@@ -1,5 +1,6 @@
 # PTQ4DM: Post-training Quantization on Diffusion Models    
-[Yuzhang Shang*](https://42shawn.github.io/), Zhihang Yuan*, Bin Xie, Bingzhe Wu, and Yan Yan    
+[Yuzhang Shang*](https://42shawn.github.io/), [Zhihang Yuan*](http://hahnyuan.com/), Bin Xie, Bingzhe Wu, and Yan Yan    
+(* denote equal contribution)    
 
 The code for the Post-training Quantization on Diffusion Models, which has been accepted to CVPR 2023. [paper](https://arxiv.org/abs/2211.15736)
 
