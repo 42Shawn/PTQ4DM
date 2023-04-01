@@ -36,4 +36,4 @@ year={2023}
 ```
 
 **Related Work**    
-Our repo is modified based on the Pytorch implementations of Improved Diffusion ([IDDPM](https://github.com/openai/improved-diffusion), ICML 2021) and QDrop ([QDrop](https://github.com/wimh966/QDrop), ICLR 2022). Thanks to the authors for releasing their codebases!
+Our repo is developed based on the PyTorch implementations of Improved Diffusion ([IDDPM](https://github.com/openai/improved-diffusion), ICML 2021) and QDrop ([QDrop](https://github.com/wimh966/QDrop), ICLR 2022). Thanks to the authors for releasing their codebases!
